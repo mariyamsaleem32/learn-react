@@ -74,7 +74,7 @@ const Search = styled('div')(({ theme }) => ({
               component="div"
               sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             >
-              MUI
+              MUI 
             </Typography>
             <Search>
               <SearchIconWrapper>
