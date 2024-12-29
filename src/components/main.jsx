@@ -24,7 +24,7 @@ export default function BasicCard() {
           let's{bull}learn{bull}react{bull}with me!
         </Typography>
         <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>welcome</Typography>
-        <Typography variant="body2">
+        <Typography className='pg'>
           well meaning and kindly.
           <br />
           {'"a benevolent smile"'}
