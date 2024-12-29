@@ -4,6 +4,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Head from './header';
 
 const bull = (
   <Box
@@ -18,13 +19,11 @@ export default function BasicCard() {
   return (
     <Card sx={{ minWidth: 275 }}>
       <CardContent>
-        <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-          Word of the Day
-        </Typography>
+         <Head/>
         <Typography variant="h5" component="div">
-          be{bull}nev{bull}o{bull}lent
+          let's{bull}learn{bull}react{bull}with me!
         </Typography>
-        <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>adjective</Typography>
+        <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>welcome</Typography>
         <Typography variant="body2">
           well meaning and kindly.
           <br />
